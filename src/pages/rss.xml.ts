@@ -17,7 +17,7 @@ export const GET = async () => {
 	return rss({
 		title: siteConfig.title,
 		description: siteConfig.description,
-		site: "https://abdulghofur.me",
+		site: import.meta.env.SITE,
 		items,
 	});
 };
