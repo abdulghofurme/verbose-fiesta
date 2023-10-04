@@ -6,14 +6,14 @@ export const siteConfig: SiteConfig = {
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
 	title: "abdulghofur.me",
 	// Meta property used as the default description meta property
-	description: "An opinionated starter theme for Astro",
+	description: "Abdul Ghofur - coder, runner & sleeper",
 	// HTML lang property, found in src/layouts/Base.astro L:18
-	lang: "en-GB",
+	lang: "id",
 	// Meta property, found in src/components/BaseHead.astro L:42
-	ogLocale: "en_GB",
+	ogLocale: "id",
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
 	date: {
-		locale: "en-GB",
+		locale: "id",
 		options: {
 			day: "numeric",
 			month: "short",
@@ -22,10 +22,10 @@ export const siteConfig: SiteConfig = {
 	},
 	// Include view-transitions: https://docs.astro.build/en/guides/view-transitions/
 	includeViewTransitions: true,
-	webmentions: {
-		link: "https://webmention.io/astro-theme-cactus.netlify.app/webmention",
-		pingback: "https://webmention.io/astro-theme-cactus.netlify.app/xmlrpc",
-	},
+	// webmentions: {
+	// 	link: "https://webmention.io/astro-theme-cactus.netlify.app/webmention",
+	// 	pingback: "https://webmention.io/astro-theme-cactus.netlify.app/xmlrpc",
+	// },
 };
 
 // Used to generate links in both the Header & Footer.

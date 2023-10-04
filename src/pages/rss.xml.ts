@@ -5,15 +5,19 @@ import { getAllPosts } from "@/utils";
 export const GET = async () => {
 	const posts = await getAllPosts();
 
+	const items = posts.map((post) => {
+		console.log(post.data.publishDate, post.slug);
+		return {
+			link: `posts/${post.slug}`,
+			title: post.data.title,
+			pubDate: post.data.publishDate,
+			description: post.data.description || "",
+		};
+	});
 	return rss({
 		title: siteConfig.title,
 		description: siteConfig.description,
-		site: import.meta.env.SITE,
-		items: posts.map((post) => ({
-			title: post.data.title,
-			description: post.data.description,
-			pubDate: post.data.publishDate,
-			link: `posts/${post.slug}`,
-		})),
+		site: "https://abdulghofur.me",
+		items,
 	});
 };

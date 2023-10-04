@@ -2,7 +2,7 @@
 title: "Pengenalan: Impact PWA pada bisnis, perlukah?"
 description: "Progressive Web Apps: dalam pandangan bisnis, perlu ngga sih???"
 tags: ["web", "diskusi", "javascript"]
-publishDate: "16 Des 2020"
+publishDate: "16 Dec 2020"
 ---
 
 Setiap dihadapkan pada sesuatu yang baru,
@@ -40,7 +40,7 @@ Intinya user lebih suka pengalaman kesederhanaan web, dengan kemudahan & kehanda
 
 Hasil dari research Tim Google sih gitu, ya percaya aja lah ya....
 
-- ### Fast
+- ## Fast
 
   2019, Ebay melakukan banyak hal untuk meningkatkan kecepatan load time mereka,
   hasilnya tiap **0.1** detik peningkatan kecepatan di tiap halaman pencarian,
@@ -48,7 +48,7 @@ Hasil dari research Tim Google sih gitu, ya percaya aja lah ya....
 
   [Selebihnya Value of Speed bisa dibaca di sini](https://web.dev/value-of-speed/).
 
-- ### Installable
+- ## Installable
 
   Kenapa _Installable_?
   Karena jadi _mudah_ dan _dekat_ ([dibahas di artikel sebelumnya](/blog/pwa-bag-1-pengenalan/))
@@ -120,7 +120,7 @@ Hasil dari research Tim Google sih gitu, ya percaya aja lah ya....
   bisa kita tambah _event-tracking_,
   _technical_ kita bahas lain kesempatan ya....
 
-- ### Reliable
+- ## Reliable
 
   Game Dinosaurus di Chrome,
   yang muncul pas offline itu,
@@ -158,7 +158,7 @@ Hasil dari research Tim Google sih gitu, ya percaya aja lah ya....
 
   Selebihnya bisa dibaca [di sini](https://pwa-book.awwwards.com/chapter-6), mungkin kita bahas sendiri nanti.
 
-- ### Engaging
+- ## Engaging
 
   Dengan ada nya manfaat & kemudahan di atas,
   harusnya cukup buat menarik user.
