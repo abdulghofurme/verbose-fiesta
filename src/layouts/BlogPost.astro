@@ -15,7 +15,8 @@ const {
 	slug,
 } = post;
 const socialImage = ogImage ?? `/og-image/${slug}.png`;
-const articleDate = updatedDate?.toISOString() ?? publishDate.toISOString();
+const date = updatedDate ?? publishDate;
+const articleDate = date.getTime() ? date.toISOString() : new Date().toISOString();
 const { headings } = await post.render();
 ---
 
